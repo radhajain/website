@@ -1,0 +1,232 @@
+.home .header {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -10;
+}
+
+.home .backgroundWave {
+  width: 100vw;
+  height: 1200px;
+  position: absolute;
+  z-index: -10;
+  top: 1650px;
+}
+
+.home .headerInfo {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.home .graphic {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .allHeader {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 150px;
+  justify-content: space-between;
+}
+
+.home .hiTitle {
+  font-family: MoolBoran;
+  padding-top: 0;
+  color: white;
+  font-size: 60px;
+  margin: 0px;
+  height: 80px;
+}
+
+.home .subtitle {
+  font-family: Glacial Indifference;
+  color: white;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.home .stanfordTitle {
+  font-family: Glacial Indifference;
+  color: white;
+  font-size: 18px;
+}
+
+.home .headerButtons {
+  background: none;
+  color: white;
+  font-family: Glacial Indifference;
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  width: 160px;
+}
+
+.home .workContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.home .experienceContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home .flexCol {
+  flex: 1 1 0;
+}
+
+.home .formContainer {
+  width: 70%;
+}
+
+/*Wide screen*/
+@media only screen and (max-width: 973px) {
+  .home .backgroundWave {
+    height: 1900px;
+  }
+}
+
+/*Laptop*/
+@media only screen and (max-width: 795px) {
+  .home .graphic {
+    display: none;
+  }
+
+  .home .headerInfo {
+    width: 100%;
+  }
+  .home .formContainer {
+    width: 100%;
+  }
+}
+
+/*Phones*/
+@media only screen and (max-height: 772px) {
+  .home .allHeader {
+    padding-top: 10vh;
+  }
+}
+
+/*Phones*/
+@media only screen and (max-width: 648px) {
+  .home .workContainer {
+    justify-content: center !important;
+  }
+  .home .backgroundWave {
+    top: 1700px;
+    height: 2900px;
+  }
+
+  .home .experienceContainer {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .home .flexCol {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    flex-direction: column;
+  }
+
+  .home .flexRow {
+    flex-direction: row;
+  }
+}
+
+/*Phones*/
+@media only screen and (max-height: 553px) {
+  .home .header {
+    height: 120vh;
+  }
+}
+
+/*Phones*/
+@media only screen and (max-width: 600px) {
+  .home .hiTitle {
+    font-size: 50px;
+    height: 60px;
+  }
+
+  .home .subtitle {
+    font-size: 20px;
+  }
+
+  .home .stanfordTitle {
+    font-size: 15px;
+  }
+
+  .home .headerButtons {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home .backgroundWave {
+    top: 1750px;
+  }
+}
+
+@media only screen and (max-width: 431px) {
+  .home .backgroundWave {
+    top: 1800px;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  .home .backgroundWave {
+    top: 220vh;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .home .backgroundWave {
+    top: 230vh;
+  }
+}
+
+@media only screen and (max-width: 394px) {
+  .home .backgroundWave {
+    top: 230vh;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  .home .backgroundWave {
+    top: 235vh;
+  }
+}
+
+@media only screen and (max-width: 363px) {
+  .home .backgroundWave {
+    top: 243vh;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .home .experienceContainer {
+    flex-direction: column;
+  }
+  .home .backgroundWave {
+    height: 400vh;
+  }
+}
+
+/*Small phone*/
+@media only screen and (max-width: 398px) {
+  .home .headerButtons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
