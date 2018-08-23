@@ -502,7 +502,7 @@ export default class Home extends Component {
               </div>
               <div
                 className="contact"
-                style={{ marginTop: 200, marginBottom: 200 }}
+                style={{ marginTop: 250, marginBottom: 200 }}
               >
                 <p
                   style={{

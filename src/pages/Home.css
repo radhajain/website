@@ -1,16 +1,16 @@
 .home .header {
   width: 100vw;
-  height: 100vh;
+  height: 800px;
   position: absolute;
   z-index: -10;
 }
 
 .home .backgroundWave {
   width: 100vw;
-  height: 1200px;
+  height: 1300px;
   position: absolute;
   z-index: -10;
-  top: 1650px;
+  top: 1450px;
 }
 
 .home .headerInfo {
@@ -92,7 +92,7 @@
 /*Wide screen*/
 @media only screen and (max-width: 973px) {
   .home .backgroundWave {
-    height: 1900px;
+    height: 2000px;
   }
 }
 
@@ -104,6 +104,7 @@
 
   .home .headerInfo {
     width: 100%;
+    text-align: center;
   }
   .home .formContainer {
     width: 100%;
@@ -113,7 +114,16 @@
 /*Phones*/
 @media only screen and (max-height: 772px) {
   .home .allHeader {
-    padding-top: 10vh;
+    padding-top: 100px;
+  }
+  .home .header {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 663px) {
+  .home .backgroundWave {
+    height: 2100px;
   }
 }
 
@@ -123,7 +133,7 @@
     justify-content: center !important;
   }
   .home .backgroundWave {
-    top: 1700px;
+    top: 1600px;
     height: 2900px;
   }
 
@@ -142,13 +152,6 @@
 
   .home .flexRow {
     flex-direction: row;
-  }
-}
-
-/*Phones*/
-@media only screen and (max-height: 553px) {
-  .home .header {
-    height: 120vh;
   }
 }
 
@@ -174,43 +177,56 @@
 
 @media only screen and (max-width: 500px) {
   .home .backgroundWave {
-    top: 1750px;
+    top: 1600px;
+  }
+}
+
+@media only screen and (max-width: 477px) {
+  .home .backgroundWave {
+    top: 1600px;
+    height: 3000px;
   }
 }
 
 @media only screen and (max-width: 431px) {
   .home .backgroundWave {
-    top: 1800px;
+    top: 1700px;
   }
 }
 
 @media only screen and (max-width: 408px) {
   .home .backgroundWave {
-    top: 220vh;
+    height: 3000px;
   }
 }
 
 @media only screen and (max-width: 399px) {
   .home .backgroundWave {
-    top: 230vh;
+    height: 3000px;
   }
 }
 
 @media only screen and (max-width: 394px) {
   .home .backgroundWave {
-    top: 230vh;
+    height: 3050px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .home .backgroundWave {
+    top: 1800px;
   }
 }
 
 @media only screen and (max-width: 368px) {
   .home .backgroundWave {
-    top: 235vh;
+    height: 3100px;
   }
 }
 
 @media only screen and (max-width: 363px) {
   .home .backgroundWave {
-    top: 243vh;
+    height: 3150px;
   }
 }
 
@@ -219,7 +235,7 @@
     flex-direction: column;
   }
   .home .backgroundWave {
-    height: 400vh;
+    height: 3650px;
   }
 }
 
